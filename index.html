@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .body{
+            background-color: bisque;
+            
+        }
+        .header{
+            display: flex;
+            gap: 600px;
+            justify-content: center;
+            align-items: center;
+
+
+            
+        }
+        .span{
+            background-image: linear-gradient(90deg, #e47a7e, #ad76bc 33%, #8380f4 71%, #a6a5ec);
+            color: #999;
+            font-size: 56px;
+            line-height: 64px;
+            text-align: center;
+            white-space: normal;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text1{
+          
+            margin: 75px;
+            text-align: left;
+            border: 50%;
+            padding-left: 200px;
+            padding-right: 200px;
+            font-family: Inter, sans-serif;
+            color: #262146;
+            font-size: 56px;
+            line-height: 64px;
+            font-weight: 600;
+        
+            
+        }
+        .text1:hover{
+            
+            border-radius: 100px;
+        }
+       
+        
+        .sayhi {
+            height: 50px;
+            width: 100px ;
+        border-radius: 50%;
+        font-size: larger;
+        font-weight:;
+        
+        }
+        .txt{
+            display: flex;
+            justify-content: center;
+            margin: 50px;
+        }
+
+
+        .fa {
+            border-radius: 50px;
+            
+        padding: 20px;
+        font-size: 30px;
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+        background: #3B5998;
+        color: white;
+        }
+
+        .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        }
+
+        .fa-google {
+        background: #dd4b39;
+        color: white;
+        }
+
+        .fa-linkedin
+        {
+        background: #007bb5;
+        color: white;
+        }
+        .social{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product{
+            margin: 100px;
+            display: flex;
+            justify-content: center;
+            gap: 50px
+        }
+    
+        .box{
+            text-align: center;
+        
+            background-color: white;
+            border-radius: 50px;
+            height: 300px;
+            width: 300px;
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.436), 0 6px 20px 0 rgba(0, 0, 0, 0.824);
+            margin-bottom: 25px;
+            
+        }
+        .box:hover{
+            background-color: #dd7b39b7;
+        }
+        .button{
+            border-radius: 20px;
+                padding: 10px;
+                background-color: lightblue
+                
+        }
+        .button:hover{
+            background-color: lightseagreen
+
+        }
+        .avtar{
+            
+            height: 150px;
+            width: 150px;
+            border-radius: 100px
+            
+        }
+
+    </style>
+</head>
+<body class="body" style="background-color: ;">
+   <section class="header">
+     <!-- header -->
+     <div>
+        <img
+        src="https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/637be6e9562e44cbe9e73aa7_cw_profile.gif"
+        loading="lazy"
+        height=""
+        id="top"
+        width="170"
+        alt="My face animated"
+        class="avtar"/>
+     </div>
+     <div>
+            <button class="sayhi">👋 Say hi</button>                
+     </div>
+     </section>
+
+     <section>
+        <div class="text1">
+            Hey, I am Charlie. A designer helping bring simplicity to complex problem spaces. Currently a
+            <span class="span"> Design Director at Uber.</span>
+        </div>
+     </section>
+
+     <section class="txt">
+        <div>
+            <h2>A few places I’ve been lucky enough to work at:</h2>
+        </div>
+     </section>
+
+     <section class="product">
+        <div class="box"><img
+            src="https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/637be6e9562e4460d0e73aa6_uber_icon.svg"
+            loading="lazy"
+            alt="Uber Icon"
+            class="image-3"
+        />
+            <h1>Uber</h1>
+            <h4>2018-Current</h4>
+            <button class="button">Coming Soon</button>
+        </div>  
+        <div class="box"><img
+            src="https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/637be6e9562e442ac7e73aa9_gp.png"
+            loading="lazy"
+            width="137"
+            alt="GoPro Icon"
+            class="image-3"
+        />
+            <h1>GoPro</h1>
+            <h4>2014-2018</h4>
+            <button class="button">Coming Soon</button>
+        </div>
+        <div class="box"><img
+            src="https://uploads-ssl.webflow.com/57c5dd245cc3aa553acf1266/637be6e9562e442fd7e73aad_flabs.png"
+            loading="lazy"
+            width="137"
+            alt="Focus Lab Logo"
+            class="image-3"/>
+
+            <h1>Focus Lab</h1>
+            <h4>2011-2014</h4>
+            <button class="button">Coming Soon</button>
+        </div> 
+     </section>
+
+     <section class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        
+     </section>
+
+</body>
+</html>
